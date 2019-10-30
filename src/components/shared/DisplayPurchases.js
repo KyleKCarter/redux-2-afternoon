@@ -8,6 +8,8 @@ class DisplayPurchases extends Component {
       <div className='display-purchases'>
         {
           purchases.map(purchase => {
+            console.log(purchase.id)
+            console.log(this.props);
             return (
               <div className="card mb-2" key={purchase.id}>
                 <div className="card-body">
